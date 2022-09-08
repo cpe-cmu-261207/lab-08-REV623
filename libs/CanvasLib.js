@@ -17,7 +17,7 @@ const CanvasLib = {
     return a;
   },
 
-  createRandomCanvas: () => {
+  createRandomCanvas: (idx) => {
     const colors = [
       "#000000",
       "#804000",
@@ -32,6 +32,7 @@ const CanvasLib = {
       "#B100FE",
       "#FF006E",
     ];
+    return colors[idx];
   },
 };
 
